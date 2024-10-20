@@ -3,29 +3,19 @@
 This project focuses on customer segmentation using a dataset that includes various attributes such as income levels, product consumption, and family structure. The goal is to analyze customer spending patterns based on income levels and family size, providing insights that can inform targeted marketing strategies.
 
 ## Dataset
-The dataset used in this analysis includes the following fields:
-
-Income: The annual income of the customer.
-Kidhome: The number of kids at home.
-Teenhome: The number of teenagers at home.
-MntMeatProducts: Amount spent on meat products.
-MntFishProducts: Amount spent on fish products.
-MntWines: Amount spent on wines.
-MntSweetProducts: Amount spent on sweets.
-MntFruits: Amount spent on fruits.
-MntGoldProds: Amount spent on gold products.
+The dataset used in this analysis is marketing_campaign.csv available in this folder or you can access using this link:  
+https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign
 
 ## Objectives
 The main objectives of this analysis are:
 
 ### - Data Filtering: 
-To segment the customer base based on income levels and the presence of kids and teenagers at home.
+To segment the customer base based on demographics like income levels, age and the presence of kids and teenagers at home and product consumption behaviour and purchasing behaviour
 Product Consumption Analysis: To calculate and visualize the total consumption of different product categories based on these segments.
 ### - Visualization: 
-To create pie charts that represent the distribution of product consumption for customers with:
-- Income less than 30k
-- Income between 30k and 60k
-- Income above 60k
+To create pie charts or pair maps that represent the distribution of product consumption for customers varying income brackets, number of kids or teenagers at home, age based engagement metrics like web or store purchases etc. 
+The distribution is primarily made after clustering the data with respect to all the features using K-nearest neighbor Clustering. 
+
 
 ## Methodology
 
@@ -46,3 +36,6 @@ Upon running, the clustered customer csv file is generated that filters the data
 
 ## Conclusion
 The insights derived from this customer segmentation analysis can assist businesses in crafting targeted marketing strategies based on customer spending habits. By understanding which products are favored by specific income segments, companies can enhance their product offerings and promotional campaigns.
+
+## Contributing
+Contributions to this project are welcome! If you have suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
