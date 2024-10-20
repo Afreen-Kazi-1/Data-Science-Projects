@@ -31,6 +31,12 @@ K-means clustering is an unsupervised algorithm that partitions data into K dist
 Generate pair charts using Seaborn for visulaizing clustering. 
 Generate pie charts to visualize the percentage of product consumption for different income segments.
 
+## Technologies Used
+
+- Python
+- Data Analysis Libraries (e.g., Pandas, NumPy)
+- Data Visualization Libraries (e.g., Matplotlib, Seaborn)
+
 ## Results
 Upon running, the clustered customer csv file is generated that filters the data into clusters through K-Nearest Neighbors algorithms. 
 
@@ -39,3 +45,5 @@ The insights derived from this customer segmentation analysis can assist busines
 
 ## Contributing
 Contributions to this project are welcome! If you have suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
+
+## Addressing Issue #4 Customer Segmentation
